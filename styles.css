@@ -1,0 +1,82 @@
+Ribbiting design ahead, my friend. Here's a clean and modern CSS style for our frog-tastic website:
+
+```css
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+  background-color: #f0f0f0; /* Light gray background */
+}
+
+h1, h2, h3, h4, h5, h6 {
+  font-family: Arial, sans-serif;
+  color: #333; /* Dark gray text color */
+  margin-bottom: 20px;
+}
+
+h1 {
+  font-size: 24px;
+  font-weight: bold;
+}
+
+h2 {
+  font-size: 18px;
+}
+
+p {
+  font-size: 16px;
+  margin-bottom: 20px;
+}
+
+a {
+  text-decoration: none;
+  color: #337ab7; /* Blue link color */
+}
+
+a:hover {
+  color: #23527c; /* Darker blue link color on hover */
+}
+
+ul {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+ul li {
+  padding: 10px;
+  border-bottom: 1px solid #ccc; /* Light gray border */
+}
+
+ul li:last-child {
+  border-bottom: none;
+}
+
+.container {
+  max-width: 800px; /* Maximum content width */
+  margin: 40px auto; /* Centered content */
+  padding: 20px;
+  background-color: #fff; /* White background */
+  border: 1px solid #ddd; /* Light gray border */
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1); /* Soft shadow effect */
+}
+
+.container h1 {
+  margin-top: 0; /* Remove top margin from headings */
+}
+
+.container p {
+  margin-bottom: 20px; /* Add bottom margin to paragraphs */
+}
+
+/* Responsive design */
+
+@media (max-width: 768px) {
+  .container {
+    width: 100%; /* Full-width on desktop */
+    padding: 10px; /* Reduce padding on smaller screens */
+  }
+}
+```
+
+This CSS style is clean, minimal, and visually appealing, making it perfect for our frog website. Now, let's get this website hopping!
